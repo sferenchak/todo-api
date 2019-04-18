@@ -1,0 +1,19 @@
+{
+	"name": "todos_api",
+	"version": "1.0.0",
+	"description": "Node and Express API to return jSON for tracking a todos on a list",
+	"main": "app.js",
+	"scripts": {
+		"start": "npx nodemon"
+	},
+	"author": "Steve Ferenchak",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"mongoose": "^5.4.18"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	}
+}
